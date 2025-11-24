@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+  --f_Inter: 'Inter';
+  --body: rgba(23, 24, 54, 1);
+  --primery: rgba(245, 68, 59, 1);
+  --text: rgba(255, 255, 255, 0.6);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--body);
+}
+
+
+
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.btn {
+  background: var(--primery);
+  font-weight: 700;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 6px;~
+}
+
+/* ==================================== Nav start ======================================= */
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__left {
+  column-gap: 148px;
+  align-items: center;
+}
+
+.nav__link {
+  color: var(--text);
+  padding: 31px 22px;
+  display: block;
+}
+
+.nav__link:hover {
+  color: vhite;
+}
+
+.nav__right {
+  align-items: center;
+  column-gap: 31px;
+  color: white;
+}
+
+.nav__right select {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.nav__right select option {
+  background: var(--body);
+}
+
+
+
+.nav__btn {
+  margin-left: 31px  ;
+}
+
